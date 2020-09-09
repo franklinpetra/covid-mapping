@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    font-size: larger;
+}
+
+@media only screen and (max-width: 570px) {
+    .container {
+    width: 50%;
+    }
+}
+.text{
+    font-size:large;
+}

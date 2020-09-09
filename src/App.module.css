@@ -1,0 +1,73 @@
+body {
+  background-color: beige; 
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin: 10% 0% 10% 0%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imageMask {
+  display: flex;
+  width: 650px;
+  margin: 0% 0% 0% 0%;
+  position:absolute;
+  left:35px;
+  top:35px;
+  opacity:60%;
+  mix-blend-mode: multiply;
+}
+
+.covidImage{ 
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  max-width: 400px;
+  height:auto;
+  background-color: beige;
+  margin: 0% 0% 0% 0%;
+  filter: rgb(106, 181, 213);
+  border-radius:5px;
+  position:absolute;
+  left:42%;
+}
+
+.button {
+  display: flex;
+  height: 40px;
+  width: 80px;
+  align-content: center;
+  margin: 5% 0% -8% 50%;
+  background-color:rgb(51, 85, 51)
+  
+
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  .image {
+    width: 100%;
+  }
+}
+
+.girlMasked {
+  display: flex;
+  align-self: right;
+  width: 350px;
+  margin: 0% 0% 0% 0%;
+  position:absolute;
+  right:15px;
+  bottom:35px;
+  opacity:60%;
+}
