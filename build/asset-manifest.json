@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8a535638.chunk.css",
+    "main.js": "/static/js/main.d0d48ccc.chunk.js",
+    "main.js.map": "/static/js/main.d0d48ccc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ca98175e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ca98175e.js.map",
+    "static/js/2.d02a56bb.chunk.js": "/static/js/2.d02a56bb.chunk.js",
+    "static/js/2.d02a56bb.chunk.js.map": "/static/js/2.d02a56bb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.67614e481bca160145e2449bc00914c9.js": "/precache-manifest.67614e481bca160145e2449bc00914c9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8a535638.chunk.css.map": "/static/css/main.8a535638.chunk.css.map",
+    "static/js/2.d02a56bb.chunk.js.LICENSE.txt": "/static/js/2.d02a56bb.chunk.js.LICENSE.txt",
+    "static/media/Icon.png": "/static/media/Icon.25ddb02c.png",
+    "static/media/LineWearingMasks.jpeg": "/static/media/LineWearingMasks.c66d5aa4.jpeg",
+    "static/media/girlMasked.jpeg": "/static/media/girlMasked.b5c4c2f3.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca98175e.js",
+    "static/js/2.d02a56bb.chunk.js",
+    "static/css/main.8a535638.chunk.css",
+    "static/js/main.d0d48ccc.chunk.js"
+  ]
+}
