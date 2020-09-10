@@ -64,10 +64,11 @@ body {
 .girlMasked {
   display: flex;
   align-self: right;
-  width: 350px;
+  max-width: 350px;
   margin: 0% 0% 0% 0%;
   position:absolute;
   right: 15px;
   bottom: 35px;
   opacity: 0.6;
+  mix-blend-mode: multiply;
 }
