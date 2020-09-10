@@ -23,7 +23,7 @@ body {
   position:absolute;
   left:35px;
   top:35px;
-  opacity: .6%;
+  opacity:0.6;
   mix-blend-mode: multiply;
 }
 
@@ -69,5 +69,5 @@ body {
   position:absolute;
   right: 15px;
   bottom: 35px;
-  opacity: .6;
+  opacity: 0.6;
 }
