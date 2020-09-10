@@ -2,45 +2,40 @@ body {
   background-color: beige; 
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-  margin: 10% 0% 10% 0%;
-}
-
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
 }
 
-.imageMask {
-  display: flex;
-  max-width: 540px;
-  margin: 0% 0% 0% 0%;
-  position:absolute;
-  left:35px;
-  top:35px;
-  opacity: 0.6;
-  mix-blend-mode: multiply;
-}
-
 .covidImage{ 
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  max-width: 400px;
-  height:auto;
-  background-color: beige;
-  margin: 0% 0% 0% 0%;
-  filter: rgb(106, 181, 213);
-  border-radius:5px;
-  position:absolute;
-  left:42%;
+  width: 20%; 
+  margin-top:50px;
 }
-
+.imageMask{ 
+  width: 20%; 
+  opacity:60%;
+}
+.girlMasked{ 
+  width: 10%; 
+  opacity:60%;
+  margin-top:200px;
+}
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  .covidImage {
+    width: 100%;
+  }
+  .imageMask {
+    width: 100%;
+  }
+  .girlMasked {
+    width: 100%;
+  }
+}
 .button {
   display: flex;
   height: 40px;
@@ -48,10 +43,7 @@ body {
   align-content: center;
   margin: 5% 0% -8% 50%;
   background-color:rgb(51, 85, 51)
-  
-
 }
-
 @media only screen and (max-width: 770px) {
   .container {
     margin: 0 10%;
@@ -59,16 +51,4 @@ body {
   .image {
     width: 100%;
   }
-}
-
-.girlMasked {
-  display: flex;
-  align-self: right;
-  max-width: 350px;
-  margin: 0% 0% 0% 0%;
-  position:absolute;
-  right: 15px;
-  bottom: 35px;
-  opacity: 0.6;
-  mix-blend-mode: multiply;
 }

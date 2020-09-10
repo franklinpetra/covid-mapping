@@ -14,7 +14,6 @@ class App extends React.Component {
 
   async componentDidMount() {
     const data = await fetchData();
-
     this.setState({ data });
   }
 
@@ -28,17 +27,15 @@ class App extends React.Component {
     const { data, country } = this.state;
     return (
       <div>
-        <div className={styles.header} >
+        <div className={styles.container} style={{flexDirection:"row", marginLeft:"15%"}}>
+          <img className={styles.imageMask} style={{mixBlendMode:"multiply", paddingRight:"10%"}} src={imageMask} alt="Social Distancing"/>
           <img className={styles.covidImage} src={ covidImage } alt="Covid 19 Banner"/>
-          <img className={styles.imageMask} style={{mixBlendMode:"multiply"}} src={imageMask} alt="Social Distancing"/>
+          <img className={styles.girlMasked} style={{mixBlendMode: "multiply", paddingLeft:"10%"}} src={girlMasked} alt="Seated girl wearing a mask"/>
         </div>
         <div className={styles.container}>
           <Cards data={ data }/>
           <CountryPicker handleCountryChange={ this.handleCountryChange }/>
           <Chart data={ data } country={ country }/>
-        </div>
-        <div className={styles.footerData}>
-          <img className={styles.girlMasked} style={{mixBlendMode: "multiply"}} src={girlMasked} alt="Seated girl wearing a mask"/>
         </div>
       </div>
     );
