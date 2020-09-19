@@ -1,4 +1,6 @@
-[Covid Tracker](https://ibb.co/kH4wT7j)
+
+
+[Covid Tracker](https://app.netlify.com/sites/fpcovid-tracker/deploys)
 
 
 
