@@ -1,4 +1,4 @@
-![Covid Tracker](https://ibb.co/kH4wT7j)
+[Covid Tracker](https://ibb.co/kH4wT7j)
 
 
 
