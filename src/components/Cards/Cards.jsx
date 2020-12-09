@@ -25,7 +25,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           cardTitle="Recovered"
           value={recovered.value}
           lastUpdate={lastUpdate}
-          cardSubtitle="Recuperated or have a negative test."
+          cardSubtitle="Recuperated and recorded a negative test."
         />
         
         <CardComponent
