@@ -31,7 +31,7 @@ class App extends React.Component {
           <img className={styles.imageMask} style={{mixBlendMode:"multiply", paddingRight:"10%"}} src={imageMask} alt="Social Distancing"/>
           <img className={styles.covidImage} src={ covidImage } alt="Covid 19 Banner"/>
           <img className={styles.girlMasked} style={{mixBlendMode: "multiply", paddingLeft:"10%"}} src={girlMasked} alt="Seated girl wearing a mask"/>
-          <p>We don’t know the actual number of COVID–19 cases, deaths & recoveries, just those that have been reported. Please view the visualizations with that in mind.</p>
+          <p style={{color:"grey"}}>We don’t know the actual number of COVID–19 cases, deaths & recoveries, just those that have been officially reported. Please view the visualizations with that in mind.</p>
         </div>
         <div className={styles.container}>
           <Cards data={ data }/>
