@@ -22,7 +22,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         />
         <CardComponent
           className={styles.recovered}
-          cardTitle="Recovered"
+          cardTitle="We can no longer accurately track recovered."
           value={recovered.value}
           lastUpdate={lastUpdate}
           cardSubtitle="Recuperated and recorded a negative test."
